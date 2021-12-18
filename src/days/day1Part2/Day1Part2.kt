@@ -26,8 +26,6 @@ class Day1Part2 {
         var numberOfIncreases = 0
         for (index in 1..lines.size - 3) {
             val currentValues = lines.subList(index, index + 3).map { it.toInt() }
-            println("previous: $previousValues")
-            println("current: $currentValues")
             if (hasIncreased(currentValues, previousValues)) {
                 numberOfIncreases++
             }

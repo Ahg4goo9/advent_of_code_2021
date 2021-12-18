@@ -1,8 +1,6 @@
 package days.day1
 
-import org.assertj.core.util.Arrays
 import java.io.File
-
 
 fun main() {
     val day1 = Day1()
